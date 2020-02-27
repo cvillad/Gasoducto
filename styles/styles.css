@@ -1,0 +1,176 @@
+html,body {
+    height: 100%;
+}
+
+a:hover {
+    color: whitesmoke;
+}
+
+input {
+    text-align: center;
+}
+
+button:hover{
+    color: rgb(53, 30, 138);
+    background-color: rgb(53, 30, 138);
+}
+
+a {
+    color: whitesmoke;
+}
+
+h3,h6{
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+
+table{
+    background-color: gainsboro;
+    border-radius: 12px;
+    font-size: 1.3rem;
+}
+
+input:focus {
+    outline: 0 0 0 0 !important;
+    box-shadow: 0 0 0 0 !important;
+
+}
+
+.table td, .table th {
+    padding: 1rem;
+    vertical-align: top;
+    border-top: none;
+}
+
+.tittle{
+    color: gainsboro;
+    text-align: center;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+
+
+
+.bg-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    filter: blur(2px);
+}
+
+.container {
+    height: 100%;
+    align-content: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.card {
+    height: 370px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    border-radius: 12px;
+}
+.contenedor {
+    height: 80%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    border-radius: 12px;
+}
+
+.center-section{
+    width: 90%;
+    height: 80%;
+    background-color: gainsboro;
+    border-radius: 4px;
+    padding: 1.2rem 1.2rem;
+}
+.eval-bt{
+    border-radius: 1rem;
+    height: 30%;
+    width: 30%;
+    padding: 0.8rem;
+    background-color: #0803B7;
+}
+.white{
+    color: whitesmoke;
+}
+
+.card-header h3 {
+    color: white;
+    text-align: center;
+}
+
+.remember {
+    color: white;
+}
+
+.remember input {
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+.arrow{
+    margin-top: 2.8rem;
+    background: none !important;
+    height: 60px;
+    width: 60px;
+    
+}
+
+.stats-p{
+    width: 250px;
+    height: 250px;
+    padding: 30px;;
+}
+
+.right{
+    margin-left: 72%;
+}
+
+.rotate{
+    transform: rotate(180deg);
+}
+
+.login_btn {
+    color: white;
+    background-color: #0803B7;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 33%;
+}
+
+.eval-answer{
+    font-size: medium;
+    height: 2rem;
+    position: relative;
+}
+
+.eval-p{
+    width: 250px;
+    height: 250px;
+    padding: 30px;;
+    margin-left: 10rem;
+}
+
+.login_btn:hover {
+    color: whitesmoke;
+    background-color: rgb(53, 30, 138);
+}
+
+.boton:hover{
+    text-decoration: none;
+}
+
+.links {
+    color: white;
+}
+
+.links a {
+    margin-left: 4px;
+}
