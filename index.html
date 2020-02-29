@@ -13,8 +13,7 @@
 
 <body>
     <img class="bg-image" src="assets/images/gasoducto.jpg" alt="">
-    <div class="container">
-        <div class="d-flex justify-content-center h-100">
+        <div class="container d-flex justify-content-center h-100">
             <div class="card">
                 <div class="card-header">
                     <h3 class="center">Gasoductos SAS</h3>
@@ -27,12 +26,14 @@
                         <div class="input-group form-group">
                             <input type="password" class="form-control" placeholder="Contraseña">
                         </div>
-                        <div class="row align-items-center remember">
-                            <input type="checkbox">Recordarme
+                        <div class="custom-control custom-checkbox remember">
+                            <input type="checkbox" class="custom-control-input row align-items-center"
+                                id="defaultUnchecked">
+                            <label class="custom-control-label" for="defaultUnchecked">Recordarme</label>
                         </div>
                     </form>
                     <div class="form-group">
-                        <a type="button" class="login_btn boton btn"  href="./operators.html">Iniciar sesión</a>
+                        <a type="button" class="login_btn boton btn btn-primary"  href="./operators.html">Iniciar sesión</a>
                     </div>
                 </div>
                 <div class="card-footer">
@@ -44,7 +45,6 @@
                     </div>
                 </div>
             </div>
-        </div>
     </div>
 
 
